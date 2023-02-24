@@ -6,6 +6,14 @@
 According to **Our World in Data**, the actual death toll from COVID-19 is "likely to be higher than the number of confirmed deaths" due to limited testing and problems in the attribution of the cause of death. The difference between reported confirmed deaths and actual deaths varies by country. 
 ###### DATA UPDATED JANUARY 20, 2022.
 
+## Skills used
+* Joins
+* CTE's
+* Temp Tables
+* Windows Functions
+* Aggregate Functions
+* Creating Views
+* Converting Data Types
 
 ## About the Database
 The *Our World in Data* COVID-19 datasets can be found on https://ourworldindata.org/covid-deaths. \
@@ -19,5 +27,5 @@ The reason behind two files between COVID-19 vaccinations and deaths data for th
 
 **CovidVaccinations**: contains columns such as ``isocode continent	location	date	new_tests	total_tests	total_tests_per_thousand	new_tests_per_thousand	new_tests_smoothed	new_tests_smoothed_per_thousand	positive_rate	tests_per_case	tests_units	total_vaccinations	people_vaccinated	people_fully_vaccinated	total_boosters	new_vaccinations	new_vaccinations_smoothed	total_vaccinations_per_hundred	people_vaccinated_per_hundred	people_fully_vaccinated_per_hundred	total_boosters_per_hundred	new_vaccinations_smoothed_per_million	new_people_vaccinated_smoothed	new_people_vaccinated_smoothed_per_hundred	stringency_index	population_density	median_age	aged_65_older	aged_70_older	gdp_per_capita	extreme_poverty	cardiovasc_death_rate	diabetes_prevalence	female_smokers	male_smokers	handwashing_facilities	hospital_beds_per_thousand	life_expectancy	human_development_index	excess_mortality_cumulative_absolute	excess_mortality_cumulative	excess_mortality	excess_mortality_cumulative_per_million``
 
-## License
-All the material produced by Our World in Data, including interactive visualizations and code, are completely open access under the Creative Commons BY license. You have the permission to use, distribute, and reproduce these in any medium, provided the source and authors are credited. All other material, including data produced by third parties and made available by Our World in Data, is subject to the license terms from the original third-party authors.
+## Refrence
+[AlexTheAnalyst](https://www.youtube.com/@AlexTheAnalyst)
