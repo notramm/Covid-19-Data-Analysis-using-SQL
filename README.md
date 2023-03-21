@@ -6,15 +6,40 @@
 According to **Our World in Data**, the actual death toll from COVID-19 is "likely to be higher than the number of confirmed deaths" due to limited testing and problems in the attribution of the cause of death. The difference between reported confirmed deaths and actual deaths varies by country. 
 ###### DATA UPDATED JANUARY 20, 2022.
 
-## Skills used
-* Joins
-* CTE's
-* Temp Tables
-* Windows Functions
-* Aggregate Functions
-* Creating Views
-* Converting Data Types
+## Exploration of data using the Covid-19 dataset.
 
+### Introduction
+Two  CSV tables were created from the Covid-19 dataset  using Excel 
+
++ The deaths tables indicating deaths across diffrent regions in the world,the population,continent,date,location
+
++ The Vaccinations tables indicating vaccinations across diffrent regions in the world,the population, continent,date,location
+
+### Analysis
+
+The data was  used  to analyse ;
+
++ Total Versus Population
++ Highest death Count
++ GLobal Numbers
++ Percentage of people infected 
++ Comparison of infection rate and Population 
++ By Joining death table to vaccinations table to compare total people vaccinated versus the population
+
+#### Aggregate  Functions 
+
++ SUM(),MAX(),AVG()
+
+#### Window functions
++ OVER()
+
+#### VIEW
+Creating view that was used for visualization  in Tableau
+
+#### Join
+ 
+ + Joining the death and vaccinations table using location and date
+ 
 ## About the Database
 The *Our World in Data* COVID-19 datasets can be found on https://ourworldindata.org/covid-deaths. \
 Obtain the database tables for this starter project within the `database` folder.
